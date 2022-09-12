@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Lab02_1 {
     public static void main(String[] args) {
-        Scanner scanner1 = new Scanner(System.in);
+        Scanner scannerHeight = new Scanner(System.in);
         System.out.print("Please enter your height(m): ");
-        float   height = scanner1.nextFloat();
-        Scanner scanner2 = new Scanner(System.in);
+        float   height = scannerHeight.nextFloat();
+        Scanner scannerWeight = new Scanner(System.in);
         System.out.print("Please enter your weight(kg): ");
-        float   weight = scanner2.nextFloat();
+        float   weight = scannerWeight.nextFloat();
         float BMI = (weight / (height * 2) );
         float suggestWeightForUnderWeight = (18.5f * height * 2);
         float suggestWeightForOverWeight = (24.9f * height * 2);
