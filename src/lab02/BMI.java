@@ -2,7 +2,7 @@ package lab02;
 
 import java.util.Scanner;
 
-public class Lab02_1 {
+public class BMI {
     public static void main(String[] args) {
         Scanner scannerHeight = new Scanner(System.in);
         System.out.print("Please enter your height(m): ");
