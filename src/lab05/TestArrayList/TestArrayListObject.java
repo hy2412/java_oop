@@ -1,15 +1,15 @@
-package lab05;
+package lab05.TestArrayList;
 
-import game_menus.gameMenu;
+import lab05.game_menus.gameMenuObject;
 
 import java.util.List;
 
-public class TestArrayList {
+public class TestArrayListObject {
     public static void main(String[] args) {
         boolean isContinuing = true;
         List<Integer> myArrayList = new java.util.ArrayList<>();
+        gameMenuObject gameMenu = new gameMenuObject();
         gameMenu.printMenu();
-
         while (isContinuing) {
             int userSelected = gameMenu.getUserSelected();
             switch (userSelected) {
